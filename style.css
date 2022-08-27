@@ -129,10 +129,23 @@ form :nth-child(2){
     }
 
 }
-@media (max-width: 768px){
+@media (max-width: 425px){
     .signup{
-        width: 60%;
-        padding: 2.5% 7%;
+        width: 90%;
+        padding: 3.5% 7%;
+    }
+    .signup>p{
+        /* margin-bottom: 3.5%; */
+        /* line-height: 55px; */
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 375px){
+    .signup{
+        width: 95%;
+        padding: 4.5% 7%;
     }
 
 }

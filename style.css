@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+:root{
+     --font-family-primary: 'Nunito Sans', sans-serif;
+
+    /*--font-size-normal: 18px;
+
+    --font-weight-primary: 400;
+    --font-weight-secondary: 700; */
+
+    /* --primary-color: #458FF6;
+    --secondary-color: #FFFFFF; */
+    --q-color-primary: #01675a;
+    --q-color-secondary: #07926d;
+    --q-color-accent: #5CCB9C;
+    --q-color-positive: #21BA45;
+    --q-color-negative: #C10015;
+    --q-color-info: #F2C037;
+    --q-color-warning: #F2C037;
+    --q-color-light: #bdbdbd;
+    --q-color-dark: #424242;
+    --q-color-faded: #777;
+} 
+
+
+body{
+    background-color: #01675a;
+    font-family: var(--font-family-primary);
+}
+.signup{
+    text-align: center;
+    width: 38%;
+    background-color: #fff;
+    margin: 3%  auto;
+    padding: 2.5% 5%;
+    border-radius: 6px;
+}
+.signup>img{
+    width: 100px;
+    margin-bottom: 3%;
+}
+.signup>h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--q-color-faded);
+    margin-bottom: 3%;
+}
+.signup>hr{
+    margin-bottom: 7%;
+}
+span{
+    color: rgb(7, 146, 109)
+}
+form{
+    text-align: start;
+    /* border: 1px solid red; */
+}
+form>input{
+    width: 100%;
+}
+form>label>input{
+    width: 100%;
+}
+form>label{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 550;
+    /* margin-bottom: 30px; */
+    /* padding-bottom: 54px; */
+}
+form>input{
+    height: 40px;
+    /* border: 1px thick rgba(0, 0, 0, 0.6); */
+    border: 1px thin rgba(0, 0, 0, 0.6);
+    /* border: 1px thin #616161; */
+    /* border: 1px solid #616161; */
+}
+form>input:hover{
+    /* height: 40px; */
+    /* border: 4px solid rgba(0, 0, 0, 0.6); */
+    /* border: 1px solid rgba(0, 0, 0, 0.6); */
+    /* border: 1px thin #616161; */
+    /* border: 1px solid #616161; */
+}
+form :nth-child(2), :nth-child(4){
+    margin-top: 6px;
+}
+form :nth-child(2), :nth-child(4):hover{
+    /* border: 1px solid black; */
+}
+form :nth-child(5){
+    margin-top: 39px;
+    /* margin-bottom: 20px; */
+    background-color:  rgb(7, 146, 109);
+    color: white;
+    font-size: 15px;
+    border: none;
+    /* font-family: var(--font-family-primary); */
+}
+form :nth-child(2){
+    margin-bottom: 20px;
+}
+.signup>p{
+    /* margin-bottom: 3.5%; */
+    line-height: 55px;
+    font-size: 16px;
+}
+.signup>h5{
+    /* margin-bottom: 3.5%; */
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: #616161!important;
+}
+
+@media (max-width: 1024px){
+    .signup{
+        width: 50%;
+        padding: 2.5% 7%;
+    }
+
+}
+@media (max-width: 768px){
+    .signup{
+        width: 60%;
+    }
+
+}
+@media (max-width: 768px){
+    .signup{
+        width: 60%;
+        padding: 2.5% 7%;
+    }
+
+}

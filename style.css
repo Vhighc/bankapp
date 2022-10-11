@@ -53,64 +53,45 @@ body{
     margin-bottom: 7%;
 }
 span{
-    color: rgb(7, 146, 109)
+    color: rgb(7, 146, 109);
 }
 form{
     text-align: start;
-    /* border: 1px solid red; */
 }
 form>input{
     width: 100%;
 }
-form>label>input{
-    width: 100%;
-}
+
 form>label{
     font-size: 13px;
     color: rgba(0, 0, 0, 0.6);
     font-weight: 550;
-    /* margin-bottom: 30px; */
-    /* padding-bottom: 54px; */
 }
 form>input{
     height: 40px;
-    /* border: 1px thick rgba(0, 0, 0, 0.6); */
     border: 1px thin rgba(0, 0, 0, 0.6);
-    /* border: 1px thin #616161; */
-    /* border: 1px solid #616161; */
+   
 }
-form>input:hover{
-    /* height: 40px; */
-    /* border: 4px solid rgba(0, 0, 0, 0.6); */
-    /* border: 1px solid rgba(0, 0, 0, 0.6); */
-    /* border: 1px thin #616161; */
-    /* border: 1px solid #616161; */
-}
+
 form :nth-child(2), :nth-child(4){
     margin-top: 6px;
 }
-form :nth-child(2), :nth-child(4):hover{
-    /* border: 1px solid black; */
-}
+
 form :nth-child(5){
     margin-top: 39px;
-    /* margin-bottom: 20px; */
     background-color:  rgb(7, 146, 109);
     color: white;
     font-size: 15px;
     border: none;
-    /* font-family: var(--font-family-primary); */
 }
 form :nth-child(2){
     margin-bottom: 20px;
 }
 .signup>p{
-    /* margin-bottom: 3.5%; */
     line-height: 55px;
     font-size: 16px;
 }
 .signup>h5{
-    /* margin-bottom: 3.5%; */
     font-weight: 400;
     font-size: 0.85rem;
     color: #616161!important;
@@ -135,8 +116,6 @@ form :nth-child(2){
         padding: 3.5% 7%;
     }
     .signup>p{
-        /* margin-bottom: 3.5%; */
-        /* line-height: 55px; */
         font-size: 14px;
     }
 
